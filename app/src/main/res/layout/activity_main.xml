@@ -117,7 +117,7 @@
 
 
             <Button
-
+                android:onClick="to_slot_page"
                 android:layout_height = "wrap_content"
                 android:layout_width = "200dp"
                 android:layout_gravity= "center"

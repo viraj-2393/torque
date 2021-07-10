@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:background = "#F6F6F6"
+    android:padding = "16dp"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation = "vertical"
+      android:background="@drawable/roundedittext"
+      android:padding = "16dp"
+      >
+
+  <TextView
+      android:id = "@+id/hospital_name"
+      style = "@style/textviews"
+      android:layout_height="wrap_content"
+      android:layout_gravity = "center"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      />
+
+    <TextView
+        android:id = "@+id/capacity"
+        style = "@style/textviews"
+        />
+
+    <TextView
+        android:id = "@+id/min_age_limit"
+        style = "@style/textviews"
+        />
+
+    <TextView
+        android:id = "@+id/vaccine_name"
+        style = "@style/textviews"
+        />
+
+    <TextView
+        android:id = "@+id/fee_type"
+        style = "@style/textviews"
+        />
+
+    <TextView
+        android:id = "@+id/fee"
+        style = "@style/textviews"
+        />
+
+    <TextView
+        android:id = "@+id/from"
+        style = "@style/textviews"
+        />
+
+    <TextView
+        android:id = "@+id/to"
+        style = "@style/textviews"
+        />
+
+    <TextView
+        android:id = "@+id/pincode"
+        style = "@style/textviews"
+        />
+
+    <TextView
+        android:id = "@+id/block"
+        style = "@style/textviews"
+        />
+
+    <TextView
+        android:id = "@+id/district"
+        style = "@style/textviews"
+        />
+  </LinearLayout>
+
+
+</LinearLayout>
