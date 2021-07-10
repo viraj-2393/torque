@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">VaccineFinder</string>
+    <string-array name="age_of_the_user">
+        <item>Age</item>
+        <item>18+</item>
+        <item>45+</item>
+
+    </string-array>
+    <string name="spinner_text">Age</string>
 </resources>
